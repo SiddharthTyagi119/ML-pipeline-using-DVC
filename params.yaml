@@ -1,6 +1,6 @@
 base:
   project: dvc_pipeline_demo
-  random_state: 47
+  random_state: 46
   target_col: quality
 
 data_source:
@@ -19,7 +19,7 @@ process:
   test_file: final_test.csv
 
 train:
-  n_est: 35
+  n_est: 25
  
 model_dir: model
 

@@ -24,3 +24,8 @@ dvc metrics diff
 dvc plots diff
 dvc push - to track all the data and model
 dvc status
+git add --all
+git commit -m "version"
+git tag v1.0
+git push
+git push --tag
